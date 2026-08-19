@@ -1,23 +1,3 @@
-/* =========================================================
-   Expediente Digital — script.js
-   Traducción del algoritmo "Base_De_Datos_Demanda" (PSeInt)
-   a JavaScript para el navegador.
-
-   Lo que hacía el pseudocódigo original:
-   - Guardaba cada demanda en arreglos paralelos (expediente,
-     juicio, asunto, actor, etc.) usando "total" como índice.
-   - Clasificaba el tipo de juicio con un Según/Hacer
-     (equivalente a un switch / if-else if).
-   - Validaba que hubiera datos antes de listar ("Si total=0").
-   - Mostraba cada registro con un bucle Para.
-
-   Aquí "total" se reemplaza por la longitud del arreglo
-   `demandas`, y el Según/Hacer del tipo de juicio se
-   resuelve con el <select> del formulario (el caso cuatro,
-   "Otro", sigue pidiendo captura manual, tal como en el
-   algoritmo original).
-   ========================================================= */
-
 (() => {
   const STORAGE_KEY = "expedienteDigital.demandas";
 
