@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expediente Digital | Sistema de elaboración de demandas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="paper-texture" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#inicio" class="brand">
+      <span class="brand-mark">Exp.</span>
+      <span class="brand-name">Expediente&nbsp;Digital</span>
+    </a>
+    <nav class="tabs" aria-label="Navegación principal">
+      <a href="#inicio" class="tab">Inicio</a>
+      <a href="#problema" class="tab">Problema</a>
+      <a href="#solucion" class="tab">Solución</a>
+      <a href="#funcionamiento" class="tab">Funcionamiento</a>
+      <a href="#usuarios" class="tab">Usuarios</a>
+      <a href="#creditos" class="tab">Créditos</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===================== INICIO ===================== -->
+  <section id="inicio" class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Sistema de elaboración de demandas · versión web</p>
+      <h1>De la carpeta de cartón<br>al <em>expediente digital.</em></h1>
+      <p class="hero-lede">
+        Un despacho lleva decenas de demandas a la vez: cada una con su propio folder,
+        sus propias hojas sueltas y su propio riesgo de extraviarse. Expediente Digital
+        traduce ese folder de papel a un formulario ordenado que valida, clasifica y
+        resguarda cada caso con la misma lógica de un algoritmo de registro.
+      </p>
+      <div class="hero-cta">
+        <a href="#funcionamiento" class="btn btn-primary">Registrar una demanda</a>
+        <a href="#problema" class="btn btn-ghost">Ver el problema</a>
+      </div>
+    </div>
+
+    <div class="hero-stack" aria-hidden="true">
+      <div class="card-index card-1">
+        <span class="card-tab">679/2021</span>
+        <span class="card-line"></span>
+        <span class="card-line short"></span>
+      </div>
+      <div class="card-index card-2">
+        <span class="card-tab">312/2022</span>
+        <span class="card-line"></span>
+        <span class="card-line short"></span>
+      </div>
+      <div class="card-index card-3">
+        <span class="card-tab">045/2023</span>
+        <span class="card-line"></span>
+        <span class="card-line short"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROBLEMA ===================== -->
+  <section id="problema" class="section">
+    <div class="section-inner problema-grid">
+      <div class="section-heading">
+        <p class="eyebrow">El problema</p>
+        <h2>Un expediente extraviado es un caso detenido.</h2>
+      </div>
+      <div class="folded-card">
+        <p>
+          Elaborar una demanda a mano —o repartida entre archivos sueltos de Word, notas
+          de voz y hojas impresas— multiplica los puntos donde algo puede salir mal:
+          datos incompletos, expedientes duplicados, hechos que no coinciden con las
+          pretensiones, o simplemente un folder que nadie encuentra el día de la audiencia.
+        </p>
+        <p>
+          El estudiante de Derecho o el despacho pequeño no necesita un sistema de gestión
+          judicial completo; necesita un lugar único donde capturar cada dato obligatorio
+          de la demanda, con la certeza de que nada quedó en blanco y de que el tipo de
+          juicio quedó bien clasificado desde el registro.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SOLUCION ===================== -->
+  <section id="solucion" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-heading">
+        <p class="eyebrow">La solución</p>
+        <h2>Un formulario que piensa como el algoritmo del despacho.</h2>
+      </div>
+      <p class="section-lede">
+        Expediente Digital retoma la lógica de un sistema de registro por consecutivo:
+        cada demanda recibe un número de expediente, se clasifica por tipo de juicio y
+        queda disponible para consultarse en cualquier momento, sin abrir un solo cajón.
+      </p>
+
+      <ol class="clause-list">
+        <li>
+          <span class="clause-num">Art. 1</span>
+          <div>
+            <h3>Registro validado</h3>
+            <p>Ningún campo obligatorio puede quedar vacío: el sistema lo revisa antes de aceptar el registro, igual que un oficial de partes revisaría una demanda incompleta.</p>
+          </div>
+        </li>
+        <li>
+          <span class="clause-num">Art. 2</span>
+          <div>
+            <h3>Clasificación automática</h3>
+            <p>El tipo de juicio se determina con la misma estructura de decisión del algoritmo original: sucesión, divorcio, pensión alimenticia u otro, capturado a mano.</p>
+          </div>
+        </li>
+        <li>
+          <span class="clause-num">Art. 3</span>
+          <div>
+            <h3>Expediente consultable</h3>
+            <p>Cada demanda registrada queda visible como una tarjeta de expediente, con su sello de "registrada" y todos sus datos a la vista.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===================== FUNCIONAMIENTO ===================== -->
+  <section id="funcionamiento" class="section">
+    <div class="section-inner">
+      <div class="section-heading">
+        <p class="eyebrow">Funcionamiento</p>
+        <h2>Registra una demanda</h2>
+        <p class="section-lede">
+          Completa el formulario como lo haría un pasante de Derecho al abrir un expediente nuevo.
+          Al enviarlo, el sistema valida, clasifica y estampa el registro.
+        </p>
+      </div>
+
+      <div class="form-wrap">
+        <form id="demandaForm" class="doc-form" novalidate>
+
+          <div class="doc-form-head">
+            <span class="doc-form-label">Expediente</span>
+            <span class="doc-form-num" id="expedientePreview">#001 / 2026</span>
+          </div>
+
+          <div class="field-grid">
+            <div class="field">
+              <label for="asunto">Asunto</label>
+              <input type="text" id="asunto" name="asunto" placeholder="Ej. Demanda de divorcio incausado" required>
+            </div>
+
+            <div class="field">
+              <label for="tipoJuicio">Tipo de juicio</label>
+              <select id="tipoJuicio" name="tipoJuicio" required>
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="Sucesión Intestamentaria a Bienes">Sucesión Intestamentaria a Bienes</option>
+                <option value="Divorcio">Divorcio</option>
+                <option value="Pensión Alimenticia">Pensión Alimenticia</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+
+            <div class="field field-otro" id="campoOtroJuicio" hidden>
+              <label for="tipoJuicioOtro">Especifica el tipo de juicio</label>
+              <input type="text" id="tipoJuicioOtro" name="tipoJuicioOtro" placeholder="Escribe el tipo de juicio">
+            </div>
+
+            <div class="field">
+              <label for="actor">Parte actora</label>
+              <input type="text" id="actor" name="actor" placeholder="Nombre, domicilio, teléfono, correo" required>
+            </div>
+
+            <div class="field">
+              <label for="abogado">Abogado responsable</label>
+              <input type="text" id="abogado" name="abogado" placeholder="Nombre completo" required>
+            </div>
+
+            <div class="field">
+              <label for="demandado">Parte demandada y domicilio</label>
+              <input type="text" id="demandado" name="demandado" required>
+            </div>
+
+            <div class="field">
+              <label for="valorDemanda">Valor de la demanda</label>
+              <input type="text" id="valorDemanda" name="valorDemanda" placeholder="Ej. $50,000 MXN" required>
+            </div>
+
+            <div class="field">
+              <label for="copias">¿Incluye copias de traslado?</label>
+              <select id="copias" name="copias" required>
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="Sí">Sí</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field field-full">
+            <label for="pretensiones">Pretensiones</label>
+            <textarea id="pretensiones" name="pretensiones" rows="2" required></textarea>
+          </div>
+
+          <div class="field field-full">
+            <label for="hechos">Hechos</label>
+            <textarea id="hechos" name="hechos" rows="3" required></textarea>
+          </div>
+
+          <div class="field field-full">
+            <label for="fundamentos">Fundamentos de derecho (artículos)</label>
+            <textarea id="fundamentos" name="fundamentos" rows="2" required></textarea>
+          </div>
+
+          <div class="field field-full">
+            <label for="pruebas">Pruebas y testigos</label>
+            <textarea id="pruebas" name="pruebas" rows="2" required></textarea>
+          </div>
+
+          <div class="field-checkline">
+            <label class="checkline">
+              <input type="checkbox" id="firma" name="firma" required>
+              <span>Firma bajo protesta de decir verdad que los datos capturados son correctos.</span>
+            </label>
+          </div>
+
+          <p class="form-msg" id="formMsg" role="status" aria-live="polite"></p>
+
+          <div class="doc-form-actions">
+            <button type="submit" class="btn btn-primary">Registrar demanda</button>
+            <button type="reset" class="btn btn-ghost">Limpiar formulario</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="records">
+        <div class="records-head">
+          <h3>Expedientes registrados <span id="recordCount">(0)</span></h3>
+          <button type="button" class="btn btn-text" id="clearRecords">Vaciar registros</button>
+        </div>
+        <div id="recordsList" class="records-list">
+          <p class="records-empty" id="recordsEmpty">Aún no hay expedientes registrados. El primero que captures aparecerá aquí, sellado y listo para consultarse.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== USUARIOS ===================== -->
+  <section id="usuarios" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-heading">
+        <p class="eyebrow">¿Quién lo usa?</p>
+        <h2>Pensado para quien abre expedientes todos los días.</h2>
+      </div>
+      <div class="user-grid">
+        <div class="user-card">
+          <span class="user-icon" aria-hidden="true">⚖️</span>
+          <h3>Estudiantes de Derecho</h3>
+          <p>Practican la estructura completa de una demanda —pretensiones, hechos, fundamentos— antes de enfrentarla en un caso real.</p>
+        </div>
+        <div class="user-card">
+          <span class="user-icon" aria-hidden="true">🗂️</span>
+          <h3>Despachos pequeños</h3>
+          <p>Reemplazan la carpeta física por un registro consultable, sin invertir en un sistema de gestión judicial completo.</p>
+        </div>
+        <div class="user-card">
+          <span class="user-icon" aria-hidden="true">🖋️</span>
+          <h3>Pasantes y oficiales de partes</h3>
+          <p>Capturan datos de la parte actora y demandada con validación inmediata, evitando expedientes incompletos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CREDITOS ===================== -->
+  <section id="creditos" class="section">
+    <div class="section-inner creditos-grid">
+      <div class="section-heading">
+        <p class="eyebrow">Créditos</p>
+        <h2>Ficha del proyecto</h2>
+      </div>
+      <div class="stamp-card">
+        <dl>
+          <div><dt>Integrantes</dt><dd>Nombre del alumno o equipo</dd></div>
+          <div><dt>Grupo</dt><dd>___________</dd></div>
+          <div><dt>Materia</dt><dd>Innovación y Tecnologías de la Información</dd></div>
+          <div><dt>Docente</dt><dd>___________</dd></div>
+        </dl>
+        <p class="ia-note">
+          Este proyecto utilizó inteligencia artificial como apoyo para traducir la lógica
+          del algoritmo original (pseudocódigo) a HTML, CSS y JavaScript. La evidencia del
+          uso responsable de IA —prompt, respuesta y ajustes realizados— se documenta por
+          separado en el reporte entregado.
+        </p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <span>Expediente Digital · Proyecto final, tercer parcial</span>
+    <span>Innovación y Tecnologías de la Información</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
